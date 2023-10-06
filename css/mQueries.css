@@ -1,0 +1,37 @@
+/* fix for 768px < x < 1160px resolution */
+@media screen and (max-width: 1160px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* phone */
+@media screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col {
+        width: 100% !important;
+        padding: 32px 16px;
+    }
+
+    /* last section black */
+    .why-us {
+        background-color: #222222;
+        padding: 48px 20px;
+        margin: 0;
+    }
+
+    .steps.text-center {
+        margin-bottom: 0;
+    }
+}
